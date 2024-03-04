@@ -11,8 +11,10 @@
     <title>School Calendar</title>
 </head>
 <body>
+    
     <div class="container">
       <h1 class="calendar-heading">School Calendar</h1>
+      <button class="overview" >Overview</button>
         <div class="left">
             <div class="calendar">
                 <div class="month">
@@ -72,9 +74,16 @@
         <button class="add-event">
             <i class="fas fa-plus"></i>
         </button>
+
     </div>
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="script.js"></script>
+    <script>
+        document.querySelector(".overview").addEventListener("click", function() {
+            window.location.href = "page.html";
+        });
+    </script>
+   
 </body>
 </html>
